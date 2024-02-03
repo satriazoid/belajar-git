@@ -1,21 +1,26 @@
-Pertama ketika code belum terdaftar di git maka lakukan perintah
+1. ketika code belum terdaftar di git maka lakukan perintah
 
 //=======================================================================
 `git init` => Pesan: Reinitialized existing Git repository in
 //=======================================================================
 
+2. Maka lanjut ke perintah git add Folder/file yang di tuju bisa juga
+   Menggunakan titik(.) maka beberapa yang yang belum di commit akan masuk
+   Lokal
 
-//Maka lanjut ke git add=================================================
+//=================== ===================================================
 `git add` => maka akan terjadi save ke repo lokal
 //=======================================================================
 
+3. Setelah itu gunakan git commit agar kita menyimpan code yang sudah di
+   Kita edit
 
-//nah jika ingin commit/memberikan pesan update bisa gunakan=============
+//=======================================================================
 `git commit -m ["Pesan/Komentar"]`
 //=======================================================================
 
 
-maka folder repo lokal sudah siap di push ke repository online
+4. maka folder repo lokal sudah siap di push ke repository online
 seperti github/gitlab
 
 
